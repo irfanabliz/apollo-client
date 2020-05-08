@@ -6,6 +6,10 @@ coverage:
     project:
       default:
         target: "80%"
+        threshold: "1%"
     patch:
       enabled: false
 comment: false
+ignore:
+  - "src/utilities/testing/**"
+  - "**/__tests__/**"
